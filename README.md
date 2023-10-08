@@ -41,3 +41,6 @@ An example of a full command:
 ```shell
 python tune.py --model=sasrec --dataset=ml-1m --time_offset=0.95  --config_path="./grids/sasrec.py" --grid_steps=60
 ```
+
+## Reproducibility
+Please see the `conda.yml` file for the vesrions of the Python packages used in the experiments.
